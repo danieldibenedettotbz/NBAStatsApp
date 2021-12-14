@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">testAPI</string>
+    <string name="textview">TextView</string>
+    <string name="someText">someText</string>
+</resources>

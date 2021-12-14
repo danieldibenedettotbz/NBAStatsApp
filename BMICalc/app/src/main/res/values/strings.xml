@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMICalc</string>
+    <string name="bmi_calculator">BMI-Rechner</string>
+    <string name="weight_in_kg">Gewicht in Kilogram:</string>
+    <string name="height_in_m">Grösse in Metern:</string>
+    <string name="calculate">berechnen</string>
+    <string name="result_bmi_calculator">BMI-Rechner</string>
+    <string name="result_bmi_label">BMI</string>
+    <string name="result_bmi_result" />
+    <string name="result_classified">Klassifizierung</string>
+    <string name="result_classification" />
+    <string name="weight_input" />
+    <string name="height_input" />
+</resources>

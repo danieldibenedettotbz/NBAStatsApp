@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="12sp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/minusOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_minus_one"
+                tools:text="-1" />
+
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_weight="1"
+                android:autoSizeMinTextSize="50dp"
+                android:text="@string/textview_counter"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                tools:text="0" />
+
+            <Button
+                android:id="@+id/plusOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_plus_one"
+                tools:text="+1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/button_reset"
+            app:iconPadding="0dp"
+            tools:text="zuruecksetzen" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
